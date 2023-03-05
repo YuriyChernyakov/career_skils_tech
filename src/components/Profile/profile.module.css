@@ -1,0 +1,52 @@
+.avatar{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+}
+.profile{
+    align-items: center;
+    border: solid;
+    border-color: grey;
+}
+
+li{
+    list-style: none;
+    width: 70px;
+}
+
+.name{
+    font-weight: 700;
+    color: black
+}
+
+ul{
+    padding-left: 0;
+}
+
+p{
+    color: gray
+}
+
+.stats{
+    display: flex;
+    background-color: gray;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.list{
+    border: solid;
+    
+}
+.list:not(:first-child) {
+border-left: 0;
+        }
+
+.label{
+    color: white;
+}
+
+.quantity{
+    font-weight: 700;
+}

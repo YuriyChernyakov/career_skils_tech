@@ -1,0 +1,11 @@
+.container {
+    width: 210px;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    align-items:flex-start;
+    text-align: center;
+    gap: 50px;
+}

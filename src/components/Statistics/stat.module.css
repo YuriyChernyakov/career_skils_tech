@@ -1,0 +1,10 @@
+.statList{
+    display: flex;
+    margin: 0;
+}
+.statistics{
+    border: solid;
+}
+.item{
+    border: solid;
+}

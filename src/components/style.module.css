@@ -1,11 +1,54 @@
 .container {
-    width: 210px;
+    list-style: none;
+    width: 380px;
+    height: 460px;
+    border-radius: 20px;
+    padding-bottom: 36px;
+    padding-top: 20px;
+    background: linear-gradient(#471CA9, #5736A3, #4B2A99);
+}
+
+.card {
     display: flex;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 30px;
-    margin-right: 30px;
-    align-items:flex-start;
+    gap: 48px;
+}
+
+.button {
+    padding: 0;
+    margin-left: 92px;
+    margin-right: 92px;
+    border-radius: 10.31px;
+    width: 196px;
+    height: 50px;
+    border-width: 0;
+}
+
+.followers {
+    font-family: 'Montserrat', sans-serif;
+    color: #EBD8FF;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24.38px;
     text-align: center;
-    gap: 50px;
+    margin-bottom: 26px;
+}
+
+.tweets {
+    font-family: 'Montserrat', sans-serif;
+    color: #EBD8FF;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24.38px;
+   text-align: center;
+    margin-bottom: 16px;
+}
+
+.img {
+    width: 62px;
+    height: 62px;
+    margin-bottom: 34.58px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
 }

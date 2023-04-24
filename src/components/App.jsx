@@ -1,7 +1,8 @@
-import { Container } from './container';
+import { CardList } from './Profile/card';
+import cards from '../data/friendList.json'
 
 export const App = () => {
   return (
-    <Container/>
+    <CardList cards={cards}/>
   );
 };

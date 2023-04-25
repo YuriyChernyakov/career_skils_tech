@@ -2,8 +2,8 @@
 import { Profile } from './profile'
 import css from '../style.module.css';
 
-export const CardList = ({ cards }) => {
-    return (<ul className={css.card}>{cards.map(card => (<Profile {...card} />))}
+export const CardList = ({ cards, handleFollow }) => {
+    return (<ul className={css.card}>{cards.map(card => (<Profile handleFollow={handleFollow} {...card} />))}
     </ul>)
 }
 

@@ -4,7 +4,6 @@
     height: 460px;
     border-radius: 20px;
     padding-bottom: 36px;
-    padding-top: 20px;
     background: linear-gradient(#471CA9, #5736A3, #4B2A99);
 }
 
@@ -19,6 +18,7 @@
     padding: 0;
     margin-left: 92px;
     margin-right: 92px;
+    margin-bottom: 36px;
     border-radius: 10.31px;
     width: 196px;
     height: 50px;
@@ -43,9 +43,13 @@
     line-height: 24.38px;
    text-align: center;
     margin-bottom: 16px;
+    margin-top: -80px;
 }
 
 .img {
+    position: relative;
+    top: -79px;
+    bottom: 0;
     width: 62px;
     height: 62px;
     margin-bottom: 34.58px;
@@ -53,4 +57,32 @@
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
+}
+
+.imgMain{
+    width: 308px;
+    height: 168px;
+    margin-right: 36px;
+    position: relative;
+    top: 28px;
+    left: 36px;
+    }
+
+.imgLogo{
+    position:relative;
+    top: 20px;
+    left: 20px;
+}
+
+.imgLine{
+    position: relative;
+    top: 50px;
+}
+
+.imgRound{
+    z-index: 7;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left: 150px;
 }

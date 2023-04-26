@@ -2,6 +2,10 @@
 import css from '../style.module.css';
 import { PROFILE_ID } from '../../constants/consts';
 import { useEffect, useState } from 'react';
+import main from '../../imgs/main.png';
+import logo from '../../imgs/vector.svg';
+import line from '../../imgs/ellipse.svg';
+import round from '../../imgs/rectangle.svg';
 
 export const Profile = ({
   user,
@@ -21,8 +25,22 @@ export const Profile = ({
   return (
     <li className={css.container}>
       <img
-        src={''}
+        className={css.imgLogo}
+        src={logo}
         alt="logo"
+      />
+      <img
+        className={css.imgMain}
+        src={main}
+        alt='main'
+      />
+      <img
+        className={css.imgLine}
+        src={round}
+      />
+      <img
+        className={css.imgRound}
+        src={line}
       />
       <img
         className={css.img}

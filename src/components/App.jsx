@@ -25,7 +25,6 @@ export const App = () => {
   }
 
   const handleFollow = (id, isFollowAlredy = false) => {
-
     if (isFollowAlredy) {
       const preparedUsers = friends.map((item) => {
         if (item.id === id) {

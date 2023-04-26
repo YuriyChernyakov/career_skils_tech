@@ -6,6 +6,7 @@ import main from '../../imgs/main.png';
 import logo from '../../imgs/vector.svg';
 import line from '../../imgs/ellipse.svg';
 import round from '../../imgs/rectangle.svg';
+import classNames from 'classnames';
 
 export const Profile = ({
   user,
@@ -19,8 +20,21 @@ export const Profile = ({
   const [isFollowByMe, setIsFollowByMe] = useState(false);
 
   useEffect(() => {
-    setIsFollowByMe(followersID.includes(PROFILE_ID))
-  }, [followers])
+    setIsFollowByMe(followersID.includes(PROFILE_ID));
+  }, [followers]);
+
+  const normalizeFollowers = () => {
+    if (followers.toString().length >= 6) {
+      return followers.toString()
+        .replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+    }
+
+    return followers;
+  };
+
+  const buttonClasses = classNames(css.button, {
+    [css.buttonFolowed]: isFollowByMe,
+  })
 
   return (
     <li className={css.container}>
@@ -51,14 +65,14 @@ export const Profile = ({
         {tweets} TWEETS
       </p>
       <p className={css.followers}>
-        {followers} FOLLOWERS
+        {normalizeFollowers()} FOLLOWERS
       </p>
       <button
         onClick={() => handleFollow(id, isFollowByMe)}
         type="button"
-        className={css.button}
+        className={buttonClasses}
       >
-        {isFollowByMe ? 'FOLLOWED' : 'FOLLOW'}
+        {isFollowByMe ? 'FOLLOWING' : 'FOLLOW'}
       </button>
     </li>
   );

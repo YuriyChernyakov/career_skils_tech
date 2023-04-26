@@ -1,13 +1,17 @@
 {
   "files": {
-    "main.css": "/goit-react-hw-01-components/static/css/main.aa8a3f4b.css",
-    "main.js": "/goit-react-hw-01-components/static/js/main.37723cb7.js",
-    "index.html": "/goit-react-hw-01-components/index.html",
-    "main.aa8a3f4b.css.map": "/goit-react-hw-01-components/static/css/main.aa8a3f4b.css.map",
-    "main.37723cb7.js.map": "/goit-react-hw-01-components/static/js/main.37723cb7.js.map"
+    "main.css": "/career_skils_tech/static/css/main.0646888f.css",
+    "main.js": "/career_skils_tech/static/js/main.c9cf3263.js",
+    "static/media/main.png": "/career_skils_tech/static/media/main.032662a2a907475127d7.png",
+    "static/media/vector.svg": "/career_skils_tech/static/media/vector.e917114d7945c04c85a8946a331d28b6.svg",
+    "static/media/ellipse.svg": "/career_skils_tech/static/media/ellipse.cf73322ac91036f99e3ae778c55a4a05.svg",
+    "static/media/rectangle.svg": "/career_skils_tech/static/media/rectangle.3dc889ed819cc56238bce43c61f74ccc.svg",
+    "index.html": "/career_skils_tech/index.html",
+    "main.0646888f.css.map": "/career_skils_tech/static/css/main.0646888f.css.map",
+    "main.c9cf3263.js.map": "/career_skils_tech/static/js/main.c9cf3263.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa8a3f4b.css",
-    "static/js/main.37723cb7.js"
+    "static/css/main.0646888f.css",
+    "static/js/main.c9cf3263.js"
   ]
 }

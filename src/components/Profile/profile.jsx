@@ -21,6 +21,7 @@ export const Profile = ({
 
   useEffect(() => {
     setIsFollowByMe(followersID.includes(PROFILE_ID));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [followers]);
 
   const normalizeFollowers = () => {
@@ -50,10 +51,12 @@ export const Profile = ({
       />
       <img
         className={css.imgLine}
+        alt='Line'
         src={round}
       />
       <img
         className={css.imgRound}
+        alt='Round'
         src={line}
       />
       <img

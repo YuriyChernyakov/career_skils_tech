@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import { PROFILE_ID } from '../constants/consts';
 
 const FRIENDS_KEY = 'friends';
-const FOLLOWS_KEY = 'follows';
+// const FOLLOWS_KEY = 'follows';
 
 
 export const App = () => {
